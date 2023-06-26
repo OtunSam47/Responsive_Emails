@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="x-apple-disable-message-reformatting"> 
+    <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+    <meta name="color-scheme" content="light">
+    <meta name="supported-color-schemes" content="light">
+    <title></title> 
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+<!--[if lte mso 11]>
+         <style type="text/css">
+           .mj-outlook-group-fix { width:100% !important; }
+         </style>
+         <![endif]-->
+   <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:100,400,700" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Nunito:100,400,700);
+    </style>
+    <!--<![endif]-->
+    <style>
+
+        :root {
+          color-scheme: light;
+          supported-color-schemes: light;
+        }
+
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+         div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+        #MessageViewBody, #MessageWebViewDiv{
+            width: 100% !important;
+        }
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a[x-apple-data-detectors], 
+        .unstyle-auto-detected-links a,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        .im {
+            color: inherit !important;
+        }
+
+        .a6S {
+            display: none !important;
+            opacity: 0.01 !important;
+        }
+        img.g-img + div {
+            display: none !important;
+        }
+
+        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+            u ~ div .email-container {
+                min-width: 320px !important;
+            }
+        }
+       
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            u ~ div .email-container {
+                min-width: 375px !important;
+            }
+        }
+       
+        @media only screen and (min-device-width: 414px) {
+            u ~ div .email-container {
+                min-width: 414px !important;
+            }
+        }
+
+    </style>
+    
+    <style>
+
+	    
+	    .button-td,
+	    .button-a {
+	        transition: all 100ms ease-in;
+	    }
+	    .button-td-primary:hover,
+	    .button-a-primary:hover {
+	        background: #555555 !important;
+	        border-color: #555555 !important;
+	    }
+
+	    
+	    @media screen and (max-width: 480px) {
+
+	        .stack-column,
+	        .stack-column-center {
+	            display: block !important;
+	            width: 100% !important;
+	            max-width: 100% !important;
+	            direction: ltr !important;
+	        }
+	        .stack-column-center {
+	            text-align: center !important;
+	        }
+	        .center-on-narrow {
+	            text-align: center !important;
+	            display: block !important;
+	            margin-left: auto !important;
+	            margin-right: auto !important;
+	            float: none !important;
+	        }
+	        table.center-on-narrow {
+	            display: inline-block !important;
+	        }
+
+	        .email-container p {
+	            font-size: 17px !important;
+	        }
+	    }
+
+        @media (prefers-color-scheme: dark) {
+            .email-bg {
+                background: #111111 !important;
+            }
+            .darkmode-bg {
+                background: #222222 !important;
+            }
+            h1,
+            h2,
+            h3,
+            p,
+            li,
+            .darkmode-text,
+            .email-container a:not([class]) {
+                color: #F7F7F9 !important;
+            }
+            td.button-td-primary,
+            td.button-td-primary a {
+                background: #ffffff !important;
+                border-color: #ffffff !important;
+                color: #222222 !important;
+            }
+            td.button-td-primary:hover,
+            td.button-td-primary a:hover {
+                background: #cccccc !important;
+                border-color: #cccccc !important;
+            }
+            .footer td {
+                color: #aaaaaa !important;
+            }
+            .darkmode-fullbleed-bg {
+                background-color: #0F3016 !important;
+            }
+        }
+        
+    </style>
+
+</head>
+
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;" class="email-bg">
+  <center role="article" aria-roledescription="email" lang="en" style="width: 100%; background-color: #222222;" class="email-bg">
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #222222;" class="email-bg">
+    <tr>
+    <td>
+    <![endif]-->
+
+        <div style="max-height:0; overflow:hidden; mso-hide:all;" aria-hidden="true">
+            SamDev's Email Code
+        </div>
+        
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family:Nunito, Helvetica, Arial, sans-serif;">
+	        &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+        </div>
+        
+        <div style="max-width: 680px; margin: 0 auto;" class="email-container">
+            <!--[if mso]>
+            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="680">
+            <tr>
+            <td>
+            <![endif]-->
+
+	        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+	            <tr>
+	                <td style="padding: 20px 0; text-align: center">
+	                    <img src="https://i.ibb.co/7CWX3kv/Untitled-2.png" width="75" height="auto" alt="alt_text" border="0" style="height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+	                </td>
+	            </tr>
+		       
+                <tr>
+                    <td style="background-color: #ffffff;" class="darkmode-bg">
+                        <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZGluZ3xlbnwwfHwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="680" height="" alt="alt_text" border="0" style="width: 100%; max-width: 680px; height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="g-img">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="background-color: #ffffff;" class="darkmode-bg">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                    <h1 style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #333333; font-weight: normal;">Hi Email Developer Pro here!</h1>
+                                    <p style="margin: 0 0 10px;">You will be guaranteed a fully responsive template for IPhone, Android, and All mobile devices to provide a better experience for those users opening your emails on a mobile device. Your custom HTML email templates will be supported on all major Email clients including Outlook and Gmail and also work with your preferred Email Service Provider.</p>
+                                    <ul style="padding: 0; margin: 0; list-style-type: disc;">
+										<li style="margin:0 0 10px 30px;" class="list-item-first">Email Accessibility.</li>
+										<li style="margin:0 0 10px 30px;">Email Deliverability.</li>
+										<li style="margin: 0 0 0 30px;" class="list-item-last">Fully responsive for IPhone, Android, All mobile devices!</li>
+									</ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0 20px 20px;">
+                                    
+                                    <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+                                        <tr>
+                                            <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+											     <a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Read More!</a>
+											</td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="text-align: center; background-image: url('https://images.unsplash.com/photo-1572183038168-fd699d68dbc4?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJsYWNrJTIwNjAwJTJGMjAwfGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60'); background-color: #222222; background-position: center center !important; background-size: cover !important;">
+                        <!--[if gte mso 9]>
+                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border: 0; display: inline-block; width: 680px; height: 180px;" src="https://images.unsplash.com/photo-1572183038168-fd699d68dbc4?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJsYWNrJTIwNjAwJTJGMjAwfGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" />
+                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border: 0; display: inline-block; position: absolute; width: 680px; height: 180px;">
+                        <v:fill opacity="0%" color="#222222" />
+                        <![endif]-->
+                        <div>
+                            <!--[if mso]>
+                            <table align="center" role="presentation" border="0" cellspacing="0" cellpadding="0" width="500">
+                            <tr>
+                            <td width="500">
+                            <![endif]-->
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:500px; margin: auto;">
+                                <tr>
+                                    <td style="text-align: center; padding: 40px 20px; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #ffffff;">
+                                        <p style="margin: 0;">This includes using HTML5 semantic elements to define sections of content to maintain a logical reading order, using heading elements in code to ensure that hierarchy is conveyed to screen reader users, sufficient contrast between text and background colors, keeping your code concise to impact the load times positively. </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </div>
+                        <!--[if gte mso 9]>
+                        </v:fill>
+                        </v:rect>
+                        </v:image>
+                        <![endif]-->
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="center" valign="top" style="font-size:0; padding: 10px; background-color: #ffffff;" class="darkmode-bg">
+                        <!--[if mso]>
+                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660">
+                        <tr>
+                        <td valign="top" width="330">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="padding: 10px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px; text-align: left;">
+                                            <tr>
+                                                <td>
+                                                    <img src="https://images.unsplash.com/photo-1666875758381-9e627d24133e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDMwM3x8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="310" height="" border="0" alt="alt_text" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                    <p style="margin: 0;">This is about creating an inclusive experience for your subscribers, meaning all abilities are considered as much as possible.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        <td valign="top" width="330">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="padding: 10px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                            <tr>
+                                                <td>
+                                                    <img src="https://images.unsplash.com/photo-1536518922193-d994a29aca40?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDMwNHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="310" height="" border="0" alt="alt_text" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                    <p style="margin: 0;">Aria roles, alt and lang attributes, character encoding, are some of the accessibility features that will be implemented in your email template code.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="center" valign="top" style="font-size:0; padding: 10px; background-color: #ffffff;" class="darkmode-bg">
+                        <!--[if mso]>
+                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660">
+                        <tr>
+                        <td valign="top" width="220">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="padding: 10px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                            <tr>
+                                                <td>
+                                                    <img src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1pbmlvbnMlMjAzMDB4MzAwfGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                    <p style="margin: 0;">This is about removing everything that makes it harder, and adding anything that makes it easier, for a recipient to read and interact with your email.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        <td valign="top" width="220">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="padding: 10px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                            <tr>
+                                                <td>
+                                                    <img src="https://images.unsplash.com/photo-1657641898365-48ae7d64e676?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDd8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                    <p style="margin: 0;">Dark mode because it’s easier on the eyes, reduces screen brightness, improves content legibility, and respects preference for darker interfaces.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        <td valign="top" width="220">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="padding: 10px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                            <tr>
+                                                <td>
+                                                    <img src="https://images.unsplash.com/photo-1567722066597-2bdf36d13481?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDJ8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                    <p style="margin: 0;">you should keep in mind that most major email providers like Gmail use algorithms that identify emails composed of all text or all images, which can be a spam trigger.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td dir="ltr" height="100%" valign="top" width="100%" style="font-size:0; padding: 10px; background-color: #ffffff;" class="darkmode-bg">
+                        <!--[if mso]>
+                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                        <tr>
+                        <td valign="top" width="220" style="width: 220px;">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td dir="ltr" style="padding: 0 10px 10px 10px;">
+                                        <img src="https://images.unsplash.com/photo-1657642119697-6a70dc74c03d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDU1fHx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="200" height="" border="0" alt="alt_text" class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        <td valign="top" width="440" style="width: 440px;">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; max-width: 440px; min-width:280px; vertical-align:top;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td dir="ltr" style="font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
+                                        <h2 style="margin: 0 0 10px 0; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 22px; color: #333333; font-weight: bold;">Testing your HTML Emails</h2>
+                                        <p style="margin: 0 0 10px 0;">One of the most common causes of sloppy email HTML is copying and pasting from Microsoft Word. When you copy-paste content from Word, it pulls in style tags and other code.</p>
+                                        <!-- Button : BEGIN -->
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:left;">
+                                            <tr>
+                                                <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+                                                    <a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Read More</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- Button : END -->
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <tr>
+                    <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
+                    <td dir="rtl" height="100%" valign="top" width="100%" style="font-size:0; padding: 10px; text-align: left; background-color: #ffffff;" class="darkmode-bg">
+                        <!--[if mso]>
+                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                        <tr>
+                        <td valign="top" width="220" style="width: 220px;">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td dir="ltr" style="padding: 0 10px 10px 10px;">
+                                        <img src="https://images.unsplash.com/photo-1607113283743-912673f0bd2b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDI1NHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="200" height="" border="0" alt="alt_text" class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        <td valign="top" width="440" style="width: 440px;">
+                        <![endif]-->
+                        <div style="display:inline-block; margin: 0 -1px; max-width: 440px; min-width:280px; vertical-align:top;" class="stack-column">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td dir="ltr" style="font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
+                                        <h2 style="margin: 0 0 10px 0; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 22px; color: #333333; font-weight: bold;">Works with your ESP</h2>
+                                        <p style="margin: 0 0 10px 0;">To improve the consistency of email designs and help scale email productions on every channel. To provide a better experience for those users opening your emails on a mobile device.</p>
+                                        
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:left;">
+                                            <tr>
+                                                <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+                                                    <a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Read More</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td aria-hidden="true" height="40" style="font-size: 0px; line-height: 0px;">
+                        &nbsp;
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="background-color: #ffffff;" class="darkmode-bg">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                    <p style="margin: 0 0 10px 0;">This includes running your email message through a detailed list of email header and content checks. It can help you pinpoint email authorization and authentication issues related to SPF, DKIM or DMARC, identify if your IP address or domains are on any blocklists, check links for validity and security, and more!</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+            
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 680px;" class="footer">
+                <tr>
+                    <td style="padding: 20px; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 12px; line-height: 15px; text-align: center; color: #ffffff;">
+                        <webversion style="color: #ffffff; text-decoration: underline; font-weight: bold;">View as a Web Page</webversion>
+                        <br><br>
+		                Mails Delivered<br><span class="unstyle-auto-detected-links">124 Awolumate Sr., Suite 90, Opa Park, OS 12345<br>© 2022 [Mails Delivered] Inc.</span>
+                        <br><br>
+                        <unsubscribe style="color: #ffffff; text-decoration: underline;">unsubscribe</unsubscribe>
+                    </td>
+                </tr>
+            </table>
+
+            <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #709f2b;" class="darkmode-fullbleed-bg">
+            <tr>
+                <td>
+                    <div align="center" style="max-width: 680px; margin: auto;" class="email-container">
+                        <!--[if mso]>
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px; text-align: left; font-family:Nunito, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; color: #ffffff;">
+                                    <p style="margin: 0;">Responsive design is needed to ensure that email design looks just as good on mobile screens as it does on desktop screens.
+                                        Make sure your emails utilize modern responsive email design. 
+                                        </p>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+    </center>
+</body>
+</html>
